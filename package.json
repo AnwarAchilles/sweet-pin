@@ -1,0 +1,12 @@
+{
+  "name": "sweet-pin",
+  "version": "1.0.0",
+  "description": "sweet simple pin gadget JS",
+  "main": "dist/sweet-pin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Anwar Achilles <hudorianwar07@gmail.com>",
+  "license": "ISC"
+}

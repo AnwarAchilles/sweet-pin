@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- meta viewport -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- title -->
+		<title>Sweet Pin : JS Gadget</title>
+		<!-- theme (optional) -->
+		<link rel="stylesheet" href="index.css"/>
+	</head>
+	<body>
+		
+		<!-- Sweet Pin Parent -->
+		<div class="sweet-pin">
+			<!-- child for input pin -->
+			<div class="pin-head">
+				<input type="text" name="pin" id="pin" placeholder="SERIAL"/>
+			</div>
+			<!-- child for button pin -->
+			<div class="pin-body">
+				<!-- number 1-9 -->
+				<button pin="1">1</button>
+				<button pin="2">2</button>
+				<button pin="3">3</button>
+				<button pin="4">4</button>
+				<button pin="5">5</button>
+				<button pin="6">6</button>
+				<button pin="7">7</button>
+				<button pin="8">8</button>
+				<button pin="9">9</button>
+				<!-- delete/clear -->
+				<button pin="delete">×</button>
+				<!-- number 0 -->
+				<button pin="0">0</button>
+				<!-- null/submit -->
+				<button pin="submit" type="submit">✓</button>
+			</div>
+		</div>
+		
+		
+		
+		<script type="text/javascript" src="../dist/sweet-pin.js"></script>
+		<script type="text/javascript">
+			/**
+			 * @description
+			 * declare class sweet pin
+			 * 
+			 * @param {object} option
+			 */
+			new SweetPin({
+				success: function(){
+					this._input.value = this.response;
+				}
+			});
+		</script>
+	</body>
+</html>
