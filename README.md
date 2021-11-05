@@ -5,9 +5,7 @@ Simple JS pin gadget, develop with vanilla JS
 can control length/disabe/button and secure input 
 data in JS with callback function for action.
 
-![sweet-pin](/asset/sweet-pin-1.jpg "sweet-pin")
-![sweet-pin](/asset/sweet-pin-2.jpg "sweet-pin")
-![sweet-pin](/asset/sweet-pin-3.jpg "sweet-pin")
+![sweet-pin-preview](./sweet-pin-preview.jpg "sweet-pin-preview")
 
 
 
