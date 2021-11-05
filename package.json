@@ -1,8 +1,12 @@
 {
   "name": "sweet-pin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "sweet simple pin gadget JS",
   "main": "dist/sweet-pin.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnwarAchilles/sweet-pin.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
