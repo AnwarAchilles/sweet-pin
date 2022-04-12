@@ -24,7 +24,7 @@ Import module and set option
 ````js
 import { SweetPin } from 'sweet-pin';
 
-SweetPin({
+SweetPin.option({
 	// target: ".sweet-pin",
 	// range: 6,
 	// disable: true,
