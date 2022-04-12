@@ -1,8 +1,8 @@
 {
   "name": "sweet-pin",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "sweet simple pin gadget JS",
-  "main": "dist/sweet-pin.js",
+  "main": "dist/sweet-pin.module.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/AnwarAchilles/sweet-pin.git"

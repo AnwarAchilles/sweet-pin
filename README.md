@@ -9,18 +9,22 @@ data in JS with callback function for action.
 
 
 
-### Install Via NPM
+
+## Get Started
+:)
+
+
+
+#### Install Via NPM
 ````shell
 $ npm install --save-dev sweet-pin
 ````
 
-
-
-### Get Started
-
-JS instance object
+Import module and set option
 ````js
-new SweetJs({
+import { SweetPin } from 'sweet-pin';
+
+SweetPin({
 	// target: ".sweet-pin",
 	// range: 6,
 	// disable: true,
@@ -32,6 +36,23 @@ new SweetJs({
 });
 ````
 
+
+
+
+#### Install File Manually
+JS instance object
+````js
+new SweetPin({
+	// target: ".sweet-pin",
+	// range: 6,
+	// disable: true,
+	// disableOnSuccess: true,
+	success: function() {
+		// do something here
+		// this.response | this.result
+	}
+});
+````
 
 HTML structure
 ````html
