@@ -70,7 +70,7 @@ SweetPin = (function( option={} ) {
      * @param {element} e
      */
     SweetPinCore.prototype.__control = function(e){
-        this.pin = e.getAttribute("pin");
+        this.pin = e.getAttribute("value");
         
         if (this.pin!="delete" && this.pin!="clear" && this.pin!="submit"){
             if (this._data.length != this._opt.range){

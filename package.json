@@ -1,6 +1,6 @@
 {
   "name": "sweet-pin",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "sweet simple pin gadget JS",
   "main": "dist/sweet-pin.module.js",
   "repository": {
